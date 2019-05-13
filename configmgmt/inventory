@@ -1,0 +1,5 @@
+[example]
+10.0.0.40
+
+[example:vars]
+remote_user=kwalker

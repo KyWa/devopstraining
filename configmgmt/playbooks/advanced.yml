@@ -1,0 +1,10 @@
+---
+- hosts: example
+  gather_facts: no
+  remote_user: kwalker
+
+  tasks:
+      - name: Do something
+        command: whoami
+        register: ping
+      - debug: msg="{{ping}}"

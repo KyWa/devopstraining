@@ -1,0 +1,8 @@
+---
+- hosts: example           # Selects which Group in Inventory file. Can also put all to run against all in Inventory file
+  remote_user: kwalker     # Tells Ansible which user to connect as
+  become: false            # Tells Ansible to use sudo if set to true on the remote system
+
+  tasks:                   # All playbooks must have a task block. All modules under tasks run in the order in which they appear
+      - name: Task Name    # The name field is there for humans to know which part of the playbook is being run.
+        ping:              # Which module to run
