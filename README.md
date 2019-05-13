@@ -1,6 +1,6 @@
 # DevOps Training Videos/Blogs
 
-## Workstation Setup (Linux, Mac, Windows, ChromeOS [comingsoon])
+## Workstation Setup (Linux, Mac, Windows, ChromeOS [coming soon])
 1. Tools, configs, applications
 
 ## Scripting (Bash, Python)
