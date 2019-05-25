@@ -2,7 +2,7 @@
 
 ## Scope
 
-The scope of setup here is getting Winodws to a state to use tooling. This may change when WSL2 comes along with the new Windows Terminal. 
+The scope of setup here is getting Windows to a state to use modern tooling. This may change when WSL2 comes along with the new Windows Terminal as there are notes about more features being added.
 
 ## Setup
 
