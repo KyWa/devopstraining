@@ -4,7 +4,7 @@
   remote_user: kwalker
 
   tasks:
-      - name: Do something
+      - name: Doing Something
         command: whoami
         register: ping
       - debug: msg="{{ping}}"
