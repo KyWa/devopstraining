@@ -1,7 +1,9 @@
-## Applications:
-* VS Code
-* Terraform
+## Core Applications:
 * WSL
 * Ansible
-* Docker
 * Git
+
+## TBD Applications:
+* VS Code
+* Docker
+* Terraform

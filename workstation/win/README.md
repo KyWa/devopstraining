@@ -11,10 +11,8 @@ WSL should be the first thing to setup as you will have to reboot. After that, t
 ## Applications
 
 1. WSL
-2. VS Code
-3. Terraform
-4. Ansible
-5. Git
+2. Git
+3. Ansible
 
 ### WSL
 
@@ -24,10 +22,6 @@ First step is to go to the Start menu and type in "Turn Windows features on or o
 
 A terminal will load up and ask for a username. Create a user by typing in the username. After you have typed in your username and pressed Enter it will prompt you to create a password. Please note this password is only for your user on the WSL and has no ties to your Windows password. Once this is done it will continue its setup. Load the terminal again by typing Ubutnu in the Windows Search bar and pressing return. 
 
-### VS Code
-
-### Terraform
+### Git
 
 ### Ansible
-
-### Git
