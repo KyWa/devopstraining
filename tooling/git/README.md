@@ -11,6 +11,6 @@ The first few things people trip over when learning Git is that there are some o
 `Initialized empty Git repository in /Users/kwalker/Working/.git/`
 
 ## Windows
-`Initialized empty Git repository in C:\Users\kwalker\Working\.git\`
+`Initialized empty Git repository in /home/kwalker/Working/.git/`
 
 Once this is done you can now start creating code/files and adding them to the repository. You may be wondering, "I just created a repository via that `git init` command, why do I now have to add things to the repository? Shouldn't anything created in this folder be part of the repository?". And from a normal workview, yes that is what should happen. However Git was created in the spirit of how Linux was created and works. And in a Linux environment it only does what its told to do explicitly. So we do have an extra step as we work on things in a Git repository to make it accept our files. All that needs to be done (initially, don't do this going forward as its bad practice) is `git add .`. This should only be done when adding an existing folder/project to a newly created Git repository. You can explicilty add files to the Git repository via `git add filename`.
